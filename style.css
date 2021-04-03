@@ -1,0 +1,179 @@
+@font-face {
+	src: url("fonts/KiwiMaru-Light.ttf");
+	font-family: korim;
+}
+
+
+@font-face {
+	src: url("fonts/KiwiMaru-Regular.ttf");
+	font-family: rohim;
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: rohim;
+}
+
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Header part start*/
+.header_main {
+	height: 800px;
+	background-image: url("images/header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header_mid {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+
+	overflow: hidden;
+
+}
+
+.blur {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(36,36,41,0.9);
+}
+
+.header_menu {
+	color: white;
+	margin-top: 30px;
+}
+
+.header_menu_left {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.header_menu_left ul li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.header_menu_mid {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.header_menu_right {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.header_menu_right ul li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.header_body {
+	margin-top: 200px;
+}
+
+.header_body_left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.header_body_right {
+	float: left;
+	width: 50%;
+}
+
+.header_body_right h1 {
+	font-size: 80px;
+	font-weight: bold;
+	color: #e58f00;
+}
+
+.header_body_right p {
+	font-weight: bold;
+	font-size: 25px;
+	padding: 0px 20px 0px 0px;
+	color: white;
+}
+
+.header_body_right button {
+	border: none;
+	outline: none;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 15px 20px;
+	margin-top: 30px;
+	background-color: #e58f00;
+	border-radius: 5px;
+}
+
+/*Header part end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.two {
+	height: 200px;
+	background-color: lightcoral;
+}
+
+.three {
+	height: 200px;
+
+	background-image: url("images/dd01.jpg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.four {
+	height: 200px;
+	background-color: grey;
+}
+
+.aaa {
+	height: 200px;
+
+	background-image: url("images/p1.jpg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
